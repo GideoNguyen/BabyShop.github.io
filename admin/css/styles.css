@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma, helvetica, arial, sans-serif;
+}
+#header{
+    width: 100%;
+    background: #D83865;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+#header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#menu{
+    background: #4696ED;
+    overflow: hidden;
+}
+#menu a{
+    line-height: 35px;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+    padding: 0 15px 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 450;
+}
+.selected{
+    background-color: #BA351E;
+    height: 40px;
+}
+#menu a:not(:last-child){
+    border-right:1px solid #ffffff ;
+}
+#mMenu{
+    float: left;
+}
+#login{
+    float: right;
+    color: #ffffff;
+}
+/* tabke in tai khoan */    
+th{
+    background: rgb(81, 166, 250);
+    color: #ffffff;
+}
+table, th, td{
+    border:2px solid rgb(50, 138, 226);
+    padding: 10px 0;
+}
+td{
+    font-weight: 550;
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+table{
+    margin-bottom: 120px;
+}
+h1{
+    text-align: center;
+    color: #f12e0c;
+}
+​ 
+  /* Clear floats after the columns */
+
+  .row {
+    margin: 0 auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+
+.col-1-of-2 {
+    width: 20%;
+}
+
+.col-2-of-2 {
+    width: 50%;
+}
+
+  /**/
+  fieldset{
+    margin: 40px 15px;
+    padding: 18px 35px;
+}
+fieldset a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgb(190, 98, 98);
+    margin: 20px 5px;
+    padding: 10px 22px;
+} 
+
+.btnGiaoHang{
+    background: #613DBF;
+}
+.btnThanhToan{
+    background: #5DBCD2;
+}
+.btnHuy{
+    background: #9984A8;
+}
+.btnInDonHang{
+    background: #4263B0;
+}
+#footer{
+    margin-top: 30px;
+    background: #275E63;
+    text-align: center;
+    color: #ffffff;
+    padding:5px 0;
+}

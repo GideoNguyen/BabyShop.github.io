@@ -1,0 +1,103 @@
+#header {
+    background-color: rgb(24, 158, 255);
+    margin: 10px;
+    height: 10%;
+    padding: 20px;
+}
+
+#header input {
+    width: 400px;
+}
+
+#header .tk {
+    height: 26px;
+    width: 26px;
+}
+
+#header .bot img {
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+#header .col #timkiem {
+    float: left;
+}
+
+#header .col #timkiem2 {
+    float: right;
+}
+
+#danhmuc {
+    margin-left: 5%;
+}
+
+#danhmuc a {
+    height: 45px;
+}
+
+#danhmuc img {
+    margin-right: 5px;
+    margin-top: -4px;
+    width: 16px;
+    height: 16px;
+}
+
+#main .danhsachsanpham h5 {
+    font-size: 12px;
+}
+
+.danhsachsanpham {
+    margin-left: 5%;
+    float: left;
+    margin-top: 10px;
+}
+
+#chitietsp {
+    margin-left: 5%;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+}
+
+#carouselExampleSlidesOnly .carousel-inner img {
+    height: 115%;
+}
+
+#quanlygiohang {
+    margin-left: 5%;
+}
+
+#quanlygiohang {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#quanlygiohang h1 {
+    color: #F63;
+    font-weight: bold;
+}
+
+#quanlygiohang table {
+    border: 1px solid #369;
+    width: 530px;
+    padding: 0;
+    border-spacing: 0px;
+    text-align: left;
+}
+
+#quanlygiohang table tr td,
+#quanlygiohang table tr th {
+    border: 1px solid #369;
+    margin: 0;
+    padding: 5px;
+}
+
+#quanlygiohang table tr th {
+    text-align: center;
+}
+
+#dangky span {
+    color: red;
+}
